@@ -171,11 +171,11 @@ a {
     text-align: center;
 } */
 
-
+/*---------------------------------------------------*/
 
 .post {
     border: 1px solid var(--borderColor);
-    width: auto;
+    width: 400px;
     text-align: center;
 }
 
@@ -188,7 +188,7 @@ a {
 }
 
 .post-preview {
-
+    background-color: #800000;
     padding: 15px;
 
 }
@@ -201,12 +201,12 @@ a {
  */
 
 .post-title {
-    padding: 10px;
-    background-color: #800000;
+    /*  padding: 10px;
+    background-color: #800000;*/
     color: black;
-    /* margin: 0; */
+    margin: 0;
     font-size: 20px;
-    border-radius: 20px;
+    /*border-radius: 20px;*/
 }
 
 .post-intro {
@@ -216,7 +216,7 @@ a {
 
 #post-card {
     display: flex;
-    width: auto;
+    width: 100%;
     height: 400px;
     object-fit: cover;
     justify-content: center;
