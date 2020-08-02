@@ -141,7 +141,26 @@ a {
 
 }
 
+
 .item2 h1 {
+    background-color: #800000;
+    display: flex;
+    color: rgb(233, 243, 95);
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    margin: 10px;
+    line-height: 2em;
+    border-radius: 44px;
+    padding: 10px;
+}
+
+.section2 {
+    display: flex;
+
+}
+
+.item3 h1 {
     display: flex;
     color: rgb(233, 243, 95);
     text-align: center;
@@ -151,6 +170,19 @@ a {
     line-height: 2em;
 }
 
+
+
+.item3 {
+
+    background: url("../img/108.jpg") no-repeat center/cover;
+
+    padding: 34px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 #section1 .post-wrapper {
@@ -253,6 +285,7 @@ a {
         "navbar navbar navbar "
         "section section section "
         "section1 section1 section1 "
+        "section2 section2 section2 "
         "footer footer footer ";
 }
 
@@ -277,6 +310,7 @@ a {
 #section1 {
     grid-area: section1;
 }
+
 
 #side {
     grid-area: side;
@@ -305,5 +339,6 @@ footer .center {
         overflow: auto;
         position: relative;
     }
+
 
 }
