@@ -136,6 +136,18 @@ a {
     align-items: center;
 }
 
+.item3 {
+
+    background: url("../img/1081.jpg") no-repeat center/cover;
+
+    padding: 34px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .section1 {
     display: flex;
 
@@ -174,7 +186,7 @@ a {
 
 .item3 {
 
-    background: url("../img/108.jpg") no-repeat center/cover;
+    background: url("../img/1081.jpg") no-repeat center/cover;
 
     padding: 34px;
 
