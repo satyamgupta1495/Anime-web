@@ -148,13 +148,14 @@ a {
     font-family: 'Press Start 2P', cursive;
     font-size: 15px;
     margin: 10px;
+    line-height: 2em;
 }
 
 
 
 #section1 .post-wrapper {
     width: 100%;
-    top: 30px;
+
     display: inline-flex;
     height: 460px;
     justify-content: center;
@@ -162,15 +163,21 @@ a {
     position: relative;
 }
 
-.post {
+/* .post {
     border: 1px solid var(--borderColor);
 
-    /*SHADOW HERE*/
     width: 400px;
 
     text-align: center;
-}
+} */
 
+
+
+.post {
+    border: 1px solid var(--borderColor);
+    width: auto;
+    text-align: center;
+}
 
 .thumbnail {
 
@@ -181,15 +188,25 @@ a {
 }
 
 .post-preview {
-    background-color: #fff;
+
     padding: 15px;
 
 }
 
-.post-title {
+/* .post-title {
     color: black;
     margin: 0;
     font-size: 20px;
+}
+ */
+
+.post-title {
+    padding: 10px;
+    background-color: #800000;
+    color: black;
+    /* margin: 0; */
+    font-size: 20px;
+    border-radius: 20px;
 }
 
 .post-intro {
@@ -199,7 +216,7 @@ a {
 
 #post-card {
     display: flex;
-    width: 100%;
+    width: auto;
     height: 400px;
     object-fit: cover;
     justify-content: center;
